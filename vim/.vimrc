@@ -69,6 +69,7 @@ set laststatus=2 " ステータスラインを常に表示
 set showmode " 現在のモードを表示
 set showcmd " 打ったコマンドをステータスラインの下に表示
 set ruler " ステータスラインの右側にカーソルの現在位置を表示する
+set scrolloff=6 " スクロール時に下数行を余分に残してくれる
 
 
 " Vim起動時にneocompleteを有効にする
