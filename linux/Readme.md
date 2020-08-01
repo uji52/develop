@@ -16,3 +16,9 @@ passwd uji52
 gpasswd -a uji52 wheel
 visudo
 # %wheel  ALL=(ALL)       NOPASSWD: ALL の行のコメントを外す
+
+## git設定
+git clone https://github.com/uji52/develop.git
+git clone https://github.com/uji52/uji52.com.git
+git config --global user.email "uji.52724@gmail.com"
+git config --global user.name uji52
