@@ -12,7 +12,6 @@ sudo yum install -y vim httpd mod_ssl git
 ```
 useradd uji52
 passwd uji52
-# r8-L 辺りで設定
 gpasswd -a uji52 wheel
 visudo
 # %wheel  ALL=(ALL)       NOPASSWD: ALL の行のコメントを外す
