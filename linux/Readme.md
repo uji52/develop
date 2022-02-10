@@ -23,3 +23,9 @@ git clone https://github.com/uji52/uji52.com.git
 git config --global user.email "uji.52724@gmail.com"
 git config --global user.name uji52
 git config --global credential.helper "/mnt/c/Program\ Files/Git/mingw64/libexec/git-core/git-credential-manager.exe"
+
+## NetworkInterface For VirtualBox
+
+```
+nmcli connection up enp0s3
+```
